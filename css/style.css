@@ -76,3 +76,131 @@ header i {
 .options {
 	justify-content: flex-end;
 }
+
+main {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.hashtags p {
+	color: #40a7ff;
+	font-size: 14px;
+}
+
+.author-info {
+	display: flex;
+	gap: 10px;
+}
+
+.author-container {
+	display: flex;
+	gap: 50px;
+}
+
+.player-section {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.subscribers {
+	font-size: 12px;
+	color: grey;
+}
+
+.author-image {
+	border-radius: 25px;
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+}
+
+.author-name {
+	font-weight: 500;
+}
+
+.author-image img{
+	width: auto;
+	height: 50px;
+}
+
+.subscribe-button button {
+	border: none;
+	background: white;
+	height: 30px;
+	width: 100px;
+	border-radius: 25px;
+	font-size: 14px;
+	font-weight: 700;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.category-section {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.category {
+	display: flex;
+	overflow-x: scroll;
+	gap: 10px;
+	-ms-overflow-style: none;
+	scrollbar-width: none; 
+}
+
+.category::-webkit-scrollbar {
+  display: none;
+}
+
+.category div {
+	background: #222;
+	border-radius: 5px;
+	padding: 5px 10px;
+	flex-shrink: 0;
+}
+
+.other-videos {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.video {
+	display: flex;
+	gap: 10px;
+}
+
+.thumbnail {
+	border-radius: 5px;
+	overflow: hidden;
+	height: 100px;
+}
+
+.thumbnail img {
+	height: 100px;
+	width: auto;
+}
+
+.video-title {
+	font-weight: 700;
+}
+
+.views, .name {
+	font-size: 12px;
+	color: grey;
+}
+
+.video-details {
+	display: flex;
+	flex-direction: column;
+}
+
+.icon:hover {
+	background: #222;
+}
